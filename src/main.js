@@ -30,14 +30,7 @@ function switchMode (mode, buttonSelector) {
   }
 }
 
-function setIntent(event) {
-  document.body.classList.toggle('mousedown', 'mousedown' === event.type);
-  document.body.classList.toggle('keydown', 'keydown' === event.type);
-}
-
 addEventToElement('.js-toggle-dark-mode', 'click', switchMode('dark', '.js-toggle-dark-mode'));
 addEventToElement('.js-toggle-lang-mode', 'click', switchMode('en', '.js-toggle-lang-mode'));
 initMode('darkMode', switchMode('dark', '.js-toggle-dark-mode'));
 initMode('enMode', switchMode('en', '.js-toggle-lang-mode'));
-document.addEventListener('mousedown', setIntent);
-document.addEventListener('keydown', setIntent);
