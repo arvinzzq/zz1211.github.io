@@ -3,36 +3,29 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta >
-    <title>Zhi-Qiang Zhong</title>
+    <title>🤪 Zhi-Qiang Zhong</title>
   </head>
   <body data-gr-c-s-loaded="true" class="keydown">
     <header class="header">
       <h1 class="as-text">
-        <a class="no-underline" href="https://https://github.com/zz1211">🌵Zhi-Qiang Zhong</a>
+        <a class="no-underline" href="https://github.com/zz1211">🤩钟志强</a>
+        <a class="no-underline" href="" target="_blank">CV</a>
       </h1><br>
       <button class="js-toggle-dark-mode" type="button">Dark mode</button>
-      <button class="js-toggle-dark-mode" type="button">En</button>
+      <button class="js-toggle-lang-mode" type="button">EN</button>
     </header>
-    <main class="wrapper">
-      <details open="">
+    <main id="lang-cn" class="wrapper">
+      <details open="true">
         <summary>
           <h2 class="as-text">Time line</h2>
         </summary>
         <ul class="list list-items">
-          <li>2013 ~ Web Systems Engineer at GitHub, previously Product Designer</li>
-          <li>2013 ~ Web Systems Engineer at GitHub, previously Product Designer</li>
-          <li>1991 ~ Born in Jianyang City, Fujian Province, China</li>
-        </ul>
-      </details>
-      <details>
-        <summary>
-          <h2 class="as-text">Open source projects</h2>
-        </summary>
-         <ul class="list list-items">
-          <li>
-            <a class="no-underline" target="_blank" href="https://github.com/zz1211/Zeass">zeass</a> is :cowboy_hat_face: a node full-stack framework based on koa2.
-          </li>
+          <li>2016 ~ 前端开发👨‍💻@杭州🌆</li>
+          <li>2013 ~ 2016 吹台风, 地震摇🏚️, 环岛骑行🚴 -> CS硕士 👨‍🎓 台湾🌴</li>
+          <li>2009 ~ 2013 在哈尔滨⛪️堆了四年的雪人☃️，然后拿了一个学雷达📡的EE学位🎓</li>
+          <li>1995 ~ 2009 备战👓高考📚ing🏀</li>
+          <li>1991 ~ 1995 玩🔎泥巴🐶，小霸王其乐无穷啊~🎮📺</li>
+          <li>1991 ~ 🍼出生🎉🎉🎉在中国，福建省，🏞️建阳市</li>
         </ul>
       </details>
       <details>
@@ -51,7 +44,64 @@
           {% endfor %}
         </ul>
       </details>
+      <details>
+        <summary>
+          <h2 class="as-text">Open source projects</h2>
+        </summary>
+         <ul class="list list-items">
+          <li>
+            <a class="no-underline" target="_blank" href="https://github.com/zz1211/Zeass">zeass</a> 是一个基于Koa2的node全栈框架初版本【自用ing
+          </li>
+          <li>
+            <a class="no-underline" target="_blank" href="https://github.com/zz1211/teehee">teehee</a> 是一个简单的脚手架，解决自己重复配置的烦恼
+          </li>
+        </ul>
+      </details>      
     </main>
+    <main id="lang-en" class="wrapper">
+      <details open="true">
+        <summary>
+          <h2 class="as-text">Time line</h2>
+        </summary>
+        <ul class="list list-items">
+          <li>2016 ~ Front-end development engineer👨‍💻 in hangzhou🌆</li>
+          <li>2013 ~ 2016 Typhoons, earthquakes🏚️, cycling🚴 and CS👨‍🎓 in Taiwan🌴</li>
+          <li>2009 ~ 2013 Playing snow☃️ in Harbin⛪️ with a bachelor's degree of EE📡🎓</li>
+          <li>1995 ~ 2009 Fighting👓📚 for National College Entrance Examination🏀</li>
+          <li>1991 ~ 1995 Mud🐶 Sport🎮📺🔎</li>
+          <li>1991 ~ 🍼Born🎉🎉🎉 in Jianyang City🏞️, Fujian Province, China</li>
+        </ul>
+      </details>
+      <details>
+        <summary>
+          <h2 class="as-text">
+            <a class="no-underline" href="https://github.com/zz1211/Doraemon/issues" target="_blank">Blogs</a>
+          </h2>
+        </summary>
+        <ul class="list list-items">
+          {% for issue in issueList %}
+          <li>
+            <mark>
+              <a class="no-underline" href="{{ issue.href }}">{{ issue.title }}</a>
+            </mark>
+          </li>
+          {% endfor %}
+        </ul>
+      </details>
+      <details>
+        <summary>
+          <h2 class="as-text">Open source projects</h2>
+        </summary>
+         <ul class="list list-items">
+          <li>
+            <a class="no-underline" target="_blank" href="https://github.com/zz1211/Zeass">zeass</a> is a node full-stack framework based on koa2
+          </li>
+          <li>
+            <a class="no-underline" target="_blank" href="https://github.com/zz1211/teehee">teehee</a> A simple scaffolding tool
+          </li>
+        </ul>
+      </details>      
+    </main>    
     <footer class="footer">
       That's all.
     </footer>
