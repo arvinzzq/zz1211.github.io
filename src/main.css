@@ -209,3 +209,10 @@ li:not(:last-child) .note {
 .en-mode #lang-en {
   display: block;
 }
+
+.addr {
+  display: inline;
+}
+.contact {
+  padding: 5px 15px 15px;
+}
