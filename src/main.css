@@ -108,7 +108,6 @@ main {
 .wrapper {
   width: 100%;
   margin: 0 0 30px;
-  max-width: 50em;
   padding-left: 15px;
   padding-right: 15px;
 }
