@@ -1,6 +1,6 @@
 const supportsLocalStorage = 'localStorage' in window;
 const modeTextMap = {
-  'dark-1': 'White mode',
+  'dark-1': 'Bright mode',
   'dark-0': 'Dark mode',
   'en-1': 'CN',
   'en-0': 'EN'
