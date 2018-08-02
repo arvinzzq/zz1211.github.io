@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "babel lib -d dist --watch",
+    "build": "babel lib -d dist",
     "issue": "node dist/fetchIssueList.js",
     "render": "node dist/generatePage.js",
-    "publish": "npm run issue && npm run render"
+    "publish": "npm run build && npm run issue && npm run render"
   },
   "repository": {
     "type": "git",
