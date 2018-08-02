@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/zz1211/zz1211.github.io#readme",
   "dependencies": {
-    "aragog": "0.0.2",
+    "aragog": "0.0.3",
     "nunjucks": "^3.1.3"
   },
   "devDependencies": {
