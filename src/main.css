@@ -215,3 +215,6 @@ li:not(:last-child) .note {
 .contact {
   padding: 5px 15px 15px;
 }
+.li--italic {
+  font-style: italic;
+}
