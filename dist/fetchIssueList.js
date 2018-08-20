@@ -51,7 +51,7 @@ var aragog = new _aragog2.default({
             queryConditions: {
               'utf8': true,
               page: page++,
-              q: ['is:issue', 'is:open', 'label:blog', '-label:TBD ']
+              q: ['is:issue', 'is:open', 'label:blog', 'label:zon', '-label:TBD ']
             }
           });
 

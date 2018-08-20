@@ -33,7 +33,7 @@ function comp(a, b) {
 
 console.info('render template into page ->');
 var issueList = JSON.parse(_fs2.default.readFileSync(_path2.default.resolve(process.cwd(), './issues.json')));
-issueList.sort(comp);
+// issueList.sort(comp);
 console.log('issueList ----> ', issueList);
 var view = viewRender.render('index', { issueList: issueList });
 _fs2.default.writeFileSync(_path2.default.resolve(process.cwd(), './index.html'), view, 'utf8');
