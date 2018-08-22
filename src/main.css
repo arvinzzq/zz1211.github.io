@@ -30,8 +30,6 @@
   margin-bottom: 1em;
 }
 body {
-  max-width: 1000px;
-  margin: 0 auto;
   background: #fdfdfd;
   color: #353735;
   padding: 1em;
@@ -40,6 +38,17 @@ body {
   font-size: 13px;
   -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
+}
+.container {
+  transition: all .3s;
+  padding: 1.5em 1em 1em;
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+}
+.container:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
 }
 :focus {
   outline: none;
@@ -219,4 +228,7 @@ li:not(:last-child) .note {
 }
 .li--italic {
   font-style: italic;
+}
+.footer {
+  margin: 0;
 }
