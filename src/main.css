@@ -30,6 +30,8 @@
   margin-bottom: 1em;
 }
 body {
+  max-width: 1000px;
+  margin: 0 auto;
   background: #fdfdfd;
   color: #353735;
   padding: 1em;
