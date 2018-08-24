@@ -34,6 +34,23 @@ function comp(a, b) {
 console.info('render template into page ->');
 var issueList = JSON.parse(_fs2.default.readFileSync(_path2.default.resolve(process.cwd(), './issues.json')));
 // issueList.sort(comp);
-console.log('issueList ----> ', issueList);
-var view = viewRender.render('index', { issueList: issueList });
+console.log('issueList ====> ', issueList);
+var slideList = [{
+  filename: 'Class&extends.pdf',
+  title: 'Class & extends'
+}, {
+  filename: 'npm-worm.pdf',
+  title: 'Npm Worm'
+}, {
+  filename: 'koa.pdf',
+  title: 'Koa'
+}, {
+  filename: 'webpack-bundlejs.pdf',
+  title: 'Webpack Bundlejs'
+}, {
+  filename: 'Class&extends.pdf',
+  title: 'Class & extends'
+}];
+console.log('slideList ====> ', slideList);
+var view = viewRender.render('index', { issueList: issueList, slideList: slideList });
 _fs2.default.writeFileSync(_path2.default.resolve(process.cwd(), './index.html'), view, 'utf8');
