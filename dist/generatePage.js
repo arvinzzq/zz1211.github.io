@@ -47,9 +47,6 @@ var slideList = [{
 }, {
   filename: 'webpack-bundlejs.pdf',
   title: 'Webpack Bundlejs'
-}, {
-  filename: 'Class&extends.pdf',
-  title: 'Class & extends'
 }];
 console.log('slideList ====> ', slideList);
 var view = viewRender.render('index', { issueList: issueList, slideList: slideList });
