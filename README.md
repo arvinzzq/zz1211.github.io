@@ -15,7 +15,7 @@ re-render template to index
 npm run render
 ```
 
-re-fetch list of issue and re-render template to index
+re-build code and re-fetch list of issue and re-render template to index
 ```
 npm run publish
 ```
