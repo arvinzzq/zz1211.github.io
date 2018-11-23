@@ -28,7 +28,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var aragog = new _aragog2.default({
   username: 'zz1211',
-  repository: 'Doraemon'
+  repository: 'Doraemon',
+  selector: 'div[id^=issue_] a[href*="/zz1211/Doraemon/issues/"][id^=issue-id-]'
 });
 
 (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee() {
