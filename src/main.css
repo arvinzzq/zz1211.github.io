@@ -33,6 +33,7 @@ body {
   background: #fdfdfd;
   color: #353735;
   padding: 1em;
+  padding-top: 6em;
   line-height: 1.8em;
   font-family: Cousine, monospace;
   font-size: 13px;
@@ -231,4 +232,11 @@ li:not(:last-child) .note {
 }
 .footer {
   margin: 0;
+}
+
+.ul-contact {
+  padding: 0;
+  margin: 0;
+  padding-left: 30px;
+  margin-top: 8px;
 }
